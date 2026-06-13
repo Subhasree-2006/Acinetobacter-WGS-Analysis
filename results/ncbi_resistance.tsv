@@ -1,0 +1,5 @@
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+acinetobacter.fna	NZ_CP045110.1	101401	102216	-	sul2	1-816/816	===============	0/0	100.00	100.00	ncbi	NG_051852.1	sulfonamide-resistant dihydropteroate synthase Sul2	SULFONAMIDE
+acinetobacter.fna	NZ_CP045110.1	225025	225813	+	ant(3'')-IIa	1-789/789	===============	0/0	100.00	100.00	ncbi	NG_054648.1	aminoglycoside nucleotidyltransferase ANT(3'')-IIa	SPECTINOMYCIN;STREPTOMYCIN
+acinetobacter.fna	NZ_CP045110.1	1887843	1888667	-	blaOXA-1117	1-825/825	===============	0/0	100.00	99.88	ncbi	NG_080785.1	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-1117	CARBAPENEM
+acinetobacter.fna	NZ_CP045110.1	2872625	2873776	+	blaADC-158	1-1152/1152	===============	0/0	100.00	100.00	ncbi	NG_055786.1	extended-spectrum class C beta-lactamase ADC-158	CEPHALOSPORIN

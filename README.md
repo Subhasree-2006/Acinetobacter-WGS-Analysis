@@ -1,7 +1,7 @@
 # Acinetobacter-WGS-Analysis
 Whole-genome and structural analysis of Acinetobacter baumannii SRR5891469 focusing on antimicrobial resistance, virulence factors, OXA-23 mutations, and protein structure validation.
 
-#Title
+# Title
 
 # Comprehensive Whole-Genome and Structural Analysis of Acinetobacter baumannii SRR5891469: Antimicrobial Resistance, Virulence Factors, and OXA-23 Mutation Characterization
 

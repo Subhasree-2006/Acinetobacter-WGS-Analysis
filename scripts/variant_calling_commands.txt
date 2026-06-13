@@ -1,0 +1,12 @@
+# Compress VCF
+bgzip -c filtered_variants.vcf > filtered_variants.vcf.gz
+
+# Index VCF
+tabix -p vcf filtered_variants.vcf.gz
+
+# Consequence annotation
+bcftools csq \
+-f NZ_CP045110.fasta \
+-g GCA_002761575.1_ASM276157v1_genomic.gff \
+filtered_variants.vcf.gz \
+-o annotated_csq.vcf

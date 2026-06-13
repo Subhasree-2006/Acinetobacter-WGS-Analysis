@@ -1,0 +1,13 @@
+# NCBI AMR database
+abricate --db ncbi acinetobacter.fna > ncbi_resistance.tsv
+
+# CARD database
+abricate --db card acinetobacter.fna > card.tsv
+
+# VFDB database
+abricate --db vfdb acinetobacter.fna > vfdb.tsv
+
+# Summaries
+abricate --summary ncbi_resistance.tsv
+abricate --summary card.tsv
+abricate --summary vfdb.tsv

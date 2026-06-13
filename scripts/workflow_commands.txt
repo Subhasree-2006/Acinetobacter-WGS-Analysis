@@ -1,0 +1,25 @@
+# Download SRA data
+fasterq-dump SRR5891469
+
+# Quality assessment
+fastqc *.fastq
+
+# Read trimming
+fastp -i SRR5891469_1.fastq -I SRR5891469_2.fastq \
+-o trimmed_R1.fastq -O trimmed_R2.fastq
+
+# Alignment
+bwa index NZ_CP045110.fasta
+bwa mem NZ_CP045110.fasta trimmed_R1.fastq trimmed_R2.fastq > aligned.sam
+
+# SAMtools processing
+samtools view -Sb aligned.sam > aligned.bam
+samtools sort aligned.bam -o sorted.bam
+samtools index sorted.bam
+
+# Variant calling
+bcftools mpileup -Ou -f NZ_CP045110.fasta sorted.bam | \
+bcftools call -mv -Ov -o variants.vcf
+
+# Annotation
+prokka --outdir prokka_out --prefix acinetobacter NZ_CP045110.fasta

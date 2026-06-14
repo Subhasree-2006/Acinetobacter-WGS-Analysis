@@ -61,3 +61,9 @@ India
 ## License
 
 MIT License
+
+## Citation
+
+If you use this repository, please cite:
+Subhasree. Comprehensive Whole-Genome and Structural Analysis of Acinetobacter baumannii SRR5891469.
+DOI: Pending Zenodo Registration

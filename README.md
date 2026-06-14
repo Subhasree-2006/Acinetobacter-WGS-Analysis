@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20691969.svg)](https://doi.org/10.5281/zenodo.20691969)
+
 # Acinetobacter-WGS-Analysis
 Whole-genome and structural analysis of Acinetobacter baumannii SRR5891469 focusing on antimicrobial resistance, virulence factors, OXA-23 mutations, and protein structure validation.
 
@@ -68,4 +70,7 @@ If you use this repository, please cite:
 
 Subhasree. Comprehensive Whole-Genome and Structural Analysis of Acinetobacter baumannii SRR5891469.
 
-DOI: Pending Zenodo Registration
+DOI Release (v1.1):
+
+https://doi.org/10.5281/zenodo.20691969
+

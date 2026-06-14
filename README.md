@@ -54,6 +54,9 @@ FastQC, FastP, BWA-MEM, SAMtools, BCFtools, Prokka, ABRicate, IGV, SWISS-MODEL, 
 ## Author
 
 Subhasree
+Department of Bioinformatics
+SASTRA DEEMED UNIVERSITY
+India
 
 ## License
 
